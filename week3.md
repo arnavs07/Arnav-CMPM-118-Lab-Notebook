@@ -18,3 +18,7 @@ The Arrakis paper was probably the toughest thing I worked on this week. At firs
 Basically, regular operating systems like Linux create a lot of "overhead" because apps always have to ask the kernel for permission to use the network or storage. Arrakis tries to fix this by letting apps access virtualized hardware directly while the kernel just watches from the background to keep things secure.
 
 It’s crazy to think that modern hardware is so fast that the operating system itself is actually the part slowing things down. Arrakis fixes this by splitting the OS into a "control plane" and a "data plane" so the kernel doesn't have to get involved in every single tiny task. The results they showed were pretty cool too. Apps like Redis ran way faster with much lower latency compared to Linux. The only real downside is that current hardware doesn't totally support everything Arrakis needs yet, so they have to fake some parts with software.
+
+One major strength is lower latency and higher throughput because applications can access hardware more directly. One weakness is that the system depends heavily on specialized hardware support and makes the overall architecture more complicated.
+
+Could systems like Arrakis realistically replace traditional operating systems in the future?
