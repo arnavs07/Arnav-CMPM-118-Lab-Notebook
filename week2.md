@@ -1,9 +1,19 @@
-# Lab Notebook — Week 2 (Arnav Shah)
+Lab Notebook — Week 2 (Arnav Shah)
+This week was all about actually learning how to code in Rust and getting used to the syntax. We got Rustlings set up, which has been the best way to practice everything from the book through these little mini-exercises. Compared to Week 1, it felt way more "hands-on" because I was actually writing and debugging code instead of just installing things and fixing my environment.
 
-This week focused more on learning the actual fundamentals of Rust programming and getting comfortable with the syntax. We also set up Rustlings, which became the main way to practice concepts from the Rust book through smaller exercises. Compared to Week 1, this week felt more hands-on because we were finally writing and debugging actual Rust code instead of mostly setting up the environment.
+What I Did
+- Finished the introductory Rustlings exercises that Max assigned.
+- Practiced the basics like variables, mutability, data types, and functions.
+- Spent a lot of time debugging exercises when they failed (which happened a lot).
+- Started learning how to actually read Rust compiler errors without panicking.
 
-One of the main things I worked on this week was completing the introductory Rustlings exercises assigned by Max. The exercises covered topics like variables, mutability, data types, functions, comments, and control flow. I also practiced debugging smaller Rust programs whenever exercises failed, which helped me get more familiar with Rust compiler errors. At first the compiler messages looked overwhelming, but after working through more exercises I realized they were actually helpful because they usually pointed directly to the problem.
+What I Learned
+- Immutability: In Rust, variables are locked by default. If you want to change a value, you have to specifically use the mut keyword. This is super different from other languages I’ve used, but it’s cool because it stops you from accidentally messing up your data.
+- Data Types: I learned about scalar types (like integers and booleans) and compound types (like arrays).
+- Control Flow: I practiced using if statements and different kinds of loops like for, while, and just a straight-up loop.
+- Explicit Typing: I realized that integers need specific types like i32 or u32. I never really had to think about that in other languages before.
 
-A concept that stood out to me this week was how Rust variables are immutable by default unless you specifically use the `mut` keyword. This felt very different compared to other languages I’ve used before because Rust is much stricter about preventing accidental changes to data. We also learned about scalar and compound data types, along with functions and basic loops like `for`, `while`, and `loop`.
+My Thoughts
+The compiler was honestly pretty overwhelming at first. The error messages are huge, but once I actually started reading them, I realized they’re actually trying to help. They usually point exactly to the line where I messed up and even suggest how to fix it.
 
-One thing I found interesting was that integers in Rust need explicit types like `i32` or `u32`, which is something I had never really thought about in earlier languages. Overall, Rust syntax feels stricter than languages like Python, but I can already see how those restrictions help prevent bugs and make programs safer.
+Rust definitely feels way stricter than Python, but I can already tell that all these rules are there to prevent bugs before they even happen. It makes the programs feel a lot "safer" even if the compiler is a bit of a perfectionist. Overall, it was a solid week of finally getting my hands dirty with the code.

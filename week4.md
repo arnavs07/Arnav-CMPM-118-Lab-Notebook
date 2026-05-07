@@ -1,9 +1,19 @@
-# Lab Notebook — Week 4 (Arnav Shah)
+Lab Notebook — Week 4 (Arnav Shah)
+This week was all about the "boss level" Rust concepts like generics, traits, and lifetimes, plus actually putting everything together for the Chapter 12 CLI project. It finally felt like I was doing real software development instead of just memorizing syntax. Some of this stuff was honestly brutal at first (especially lifetimes) because most other languages I’ve used don't make you care about memory and references this much. After rereading the book and grinding through more Rustlings, I’m starting to get why Rust is built like this.
 
-This week focused more on advanced Rust concepts like generics, traits, lifetimes, and finally putting everything together through the Chapter 12 CLI project. Compared to earlier weeks, this week felt more like actual software development instead of just learning syntax. Some of the concepts were definitely difficult at first, especially lifetimes, because most other programming languages I’ve used don’t really force you to think about memory and references this deeply. After rereading parts of the Rust book and doing more Rustlings exercises though, I started understanding why Rust is designed this way.
+What I Did
+- Read Chapters 10 through 14 of the Rust book.
+- Finished Rustlings exercises from 14_generics all the way to 18_iterators.
+- Built the Chapter 12 CLI project (a mini version of grep).
+- Learned how to handle command-line arguments and read files properly.
 
-I read Chapters 10 through 14 of *The Rust Programming Language* and completed Rustlings exercises from 14_generics through 18_iterators. Generics and traits were confusing initially because I was trying to understand how they connected together, but eventually I realized they help make code reusable while still keeping type safety. Iterators were also interesting because they made loops and data processing feel a lot cleaner compared to writing everything manually.
+What I Learned
+- Generics and Traits: These were confusing at first, but I realized they’re just a way to make code reusable without breaking the type system.
+- Iterators: These are awesome. They make loops and processing data look way cleaner than doing everything by hand.
+- Lifetimes: Basically, it’s how the compiler ensures a reference doesn't stick around longer than the data it’s pointing to.
+- Project Structure: I learned how to organize code across different modules and use error handling in a way that actually makes sense for a real app.
 
-The Chapter 12 CLI project was probably the most useful part of the week because it actually felt like building a real tool instead of solving smaller practice problems. The project focused on creating a command-line search program similar to `grep`, where the program reads input from the command line, opens files, searches through text, and prints matching results. Through that project, I learned more about handling command-line arguments, reading files, organizing code across multiple modules, and using Rust’s error handling in a more practical way. It also helped me understand how Rust programs are structured overall because everything from ownership to error handling started coming together in one actual project.
+My Thoughts
+The Chapter 12 CLI project was easily the best part of the week. Building a tool that searches through files like a basic grep felt like a real accomplishment compared to just solving practice puzzles. It forced me to actually use everything I’ve learned (ownership, borrowing, and error handling) all in one place.
 
-One thing I noticed this week is that Rust becomes a lot easier to understand once you actually build something with it instead of only reading concepts. The CLI project made a lot of the earlier topics finally click for me because I could actually see where generics, borrowing, and error handling would matter in a real application.
+I’ve realized that Rust makes way more sense when you’re actually building something. The CLI project made the hard concepts click because I could finally see why they matter. It’s one thing to read about generics, but it’s another thing to use them to make a search tool actually work. Overall, it was a tough week, but it feels like it’s all finally coming together.

@@ -1,7 +1,18 @@
-# Lab Notebook — Week 1 (Arnav Shah)
+Lab Notebook — Week 1 (Arnav Shah)
+This week was basically just an intro to how the class is going to work and getting all my tools and environment set up for Rust. Most of the time was spent just trying to get used to the workflow for the quarter. It’s definitely different from other coding classes I’ve taken because we’re doing "systems programming," which means we have to work inside Linux instead of just using normal Windows tools.
 
-This week was mainly an introduction to the course structure, tools, and environment setup for systems programming in Rust. Most of the week was spent getting comfortable with the workflow we’ll be using throughout the quarter and understanding how development in this class is different compared to other programming classes I’ve taken before. Since the course is heavily focused on systems programming, we were introduced to working inside Linux environments instead of mainly relying on Windows tools.
+What I Did
+- Set up WSL (Windows Subsystem for Linux) on my laptop.
+- Got Rust installed and configured everything to work together.
+- Connected VS Code to WSL so I can write code in a normal editor but run it inside Linux.
+- Practiced using the terminal for things like moving through folders and running commands.
 
-One of the biggest things I worked on this week was setting up WSL (Windows Subsystem for Linux) and getting Rust installed correctly. At first it was honestly a little confusing because I had never really used Linux commands regularly before, but after spending more time inside the terminal I started getting more comfortable navigating directories, opening files, and running commands. I also configured Rust in VS Code through WSL so that everything could compile and run directly inside the Linux environment.
+What I Learned
+- Linux Basics: I’d never really used Linux commands before, so I had to learn how to navigate and manage files through the terminal. It was a little confusing at first, but I’m getting more comfortable with it.
+- Compilation: I started learning how Rust actually builds and runs programs, which is a lot different than how Python or Java handles things.
+- Environment Setup: I realized how important it is to have a solid dev environment before you even start writing your first line of real code.
 
-This week also helped me understand more about how Rust programs are compiled and executed compared to languages I’ve used before like Python or Java. I learned a lot of basic terminal commands that are going to be useful throughout the quarter, especially for editing files, compiling projects, and working inside WSL. Overall, this week felt more focused on preparing the environment and building familiarity with the tools before moving into the more difficult Rust concepts later on.
+My Thoughts
+Honestly, the terminal was pretty intimidating at the start of the week. I’m used to just clicking on folders and hitting a "run" button, so having to type everything out felt like a lot. But after spending some time in there, it’s actually starting to feel pretty fast.
+
+Most of this week was just about getting the boring setup stuff out of the way so we don’t run into issues later.
