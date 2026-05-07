@@ -1,18 +1,7 @@
 # Lab Notebook — Week 1 (Arnav Shah)
 
-This week was mainly an introduction to the course structure and tools. The course focuses on systems programming using Rust. We learned more about our role this quarter which is to become more and more familiar with Rust as a programming language as well.
+This week was mainly an introduction to the course structure, tools, and environment setup for systems programming in Rust. Most of the week was spent getting comfortable with the workflow we’ll be using throughout the quarter and understanding how development in this class is different compared to other programming classes I’ve taken before. Since the course is heavily focused on systems programming, we were introduced to working inside Linux environments instead of mainly relying on Windows tools.
 
-## What I Did
-- Set up WSL (Windows Subsystem for Linux)
-- Installed Rust
-- Configured Rust in VS Code through WSL
-- Tried becoming more familiar with the environment
+One of the biggest things I worked on this week was setting up WSL (Windows Subsystem for Linux) and getting Rust installed correctly. At first it was honestly a little confusing because I had never really used Linux commands regularly before, but after spending more time inside the terminal I started getting more comfortable navigating directories, opening files, and running commands. I also configured Rust in VS Code through WSL so that everything could compile and run directly inside the Linux environment.
 
-## What I Learned
-- How to use WSL for development instead of basic windows terminal
-- How Rust is compiled and run
-    - Learned many new WSL commands to be able to open and get Rust going
-
-## Notes
-- Rust will be the primary language used in this course
-- Development will primarily be done inside WSL but we can use whichever Linux subsystem we are most familiar with.
+This week also helped me understand more about how Rust programs are compiled and executed compared to languages I’ve used before like Python or Java. I learned a lot of basic terminal commands that are going to be useful throughout the quarter, especially for editing files, compiling projects, and working inside WSL. Overall, this week felt more focused on preparing the environment and building familiarity with the tools before moving into the more difficult Rust concepts later on.

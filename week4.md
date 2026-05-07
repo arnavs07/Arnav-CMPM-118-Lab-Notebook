@@ -1,19 +1,9 @@
-Lab Notebook — Week 4 (Arnav Shah)
+# Lab Notebook — Week 4 (Arnav Shah)
 
-This week focused on more advanced Rust concepts like generics, traits, and lifetimes, and also tying everything together through a CLI project at the end.
+This week focused more on advanced Rust concepts like generics, traits, lifetimes, and finally putting everything together through the Chapter 12 CLI project. Compared to earlier weeks, this week felt more like actual software development instead of just learning syntax. Some of the concepts were definitely difficult at first, especially lifetimes, because most other programming languages I’ve used don’t really force you to think about memory and references this deeply. After rereading parts of the Rust book and doing more Rustlings exercises though, I started understanding why Rust is designed this way.
 
-What I Did
-- Read chapters 10 through 14 (generics → iterators)
-- Completed Rustlings exercises from 14_generics through 18_iterators
-- Worked on the Chapter 12 CLI project
+I read Chapters 10 through 14 of *The Rust Programming Language* and completed Rustlings exercises from 14_generics through 18_iterators. Generics and traits were confusing initially because I was trying to understand how they connected together, but eventually I realized they help make code reusable while still keeping type safety. Iterators were also interesting because they made loops and data processing feel a lot cleaner compared to writing everything manually.
 
-What I Learned
-- How generics allow writing code that works for all kinds of data types rather than having to constantly repeart the same code.
-- How traits can actually define something, and essentially enforce what types can actually do  
-- How to build a real command-line tool that actually prints results after reading through the file.
+The Chapter 12 CLI project was probably the most useful part of the week because it actually felt like building a real tool instead of solving smaller practice problems. The project focused on creating a command-line search program similar to `grep`, where the program reads input from the command line, opens files, searches through text, and prints matching results. Through that project, I learned more about handling command-line arguments, reading files, organizing code across multiple modules, and using Rust’s error handling in a more practical way. It also helped me understand how Rust programs are structured overall because everything from ownership to error handling started coming together in one actual project.
 
-Notes
-- Generics and traits were confusing at first especially when it came down to understanding how they connected.  
-- Most languages don't really use lifetimes, utlimately making it difficult because I've never really seen anything like it.
-- The CLI project was actually pretty cool because it felt like building something real instead of just small practice problems
-
+One thing I noticed this week is that Rust becomes a lot easier to understand once you actually build something with it instead of only reading concepts. The CLI project made a lot of the earlier topics finally click for me because I could actually see where generics, borrowing, and error handling would matter in a real application.

@@ -1,37 +1,9 @@
 # Lab Notebook — Week 2 (Arnav Shah)
 
-This week focused on learning the fundamentals of Rust programming. We also set up Rustlings for practice.
+This week focused more on learning the actual fundamentals of Rust programming and getting comfortable with the syntax. We also set up Rustlings, which became the main way to practice concepts from the Rust book through smaller exercises. Compared to Week 1, this week felt more hands-on because we were finally writing and debugging actual Rust code instead of mostly setting up the environment.
 
-## What I Did
-- Installed Rustlings
-- Completed introductory Rust exercises as asked by Max
-- Practiced debugging small Rust programs that were exercises in the Rustlings package
-- Also learned how to print 'Hello World'
+One of the main things I worked on this week was completing the introductory Rustlings exercises assigned by Max. The exercises covered topics like variables, mutability, data types, functions, comments, and control flow. I also practiced debugging smaller Rust programs whenever exercises failed, which helped me get more familiar with Rust compiler errors. At first the compiler messages looked overwhelming, but after working through more exercises I realized they were actually helpful because they usually pointed directly to the problem.
 
+A concept that stood out to me this week was how Rust variables are immutable by default unless you specifically use the `mut` keyword. This felt very different compared to other languages I’ve used before because Rust is much stricter about preventing accidental changes to data. We also learned about scalar and compound data types, along with functions and basic loops like `for`, `while`, and `loop`.
 
-## Variables and Mutability
-- Learned how variables are immutable by default
-- Used `mut` keyword to make variables mutable
-
-## Data Types
-- Scalar types (integers, floats, booleans, characters)
-- Compound types (tuples and arrays)
-
-## Functions
-- Defined functions using `fn`
-- Learned about parameters and return values
-
-## Comments
-- Used `//` for single-line comments
-
-## Control Flow
-- `if` / `else`
-- `loop`, `while`, and `for`
-
-## What I Learned
-- Rust is strict in terms of immutability
-    - This was also said by Prof. Arden in the first week that Rust is a secure language
-- Control flow syntax is just as strict but is very similar to other languages like Python.
-- Integers must also be specificed as i32 or u32, etc.
-    - This is different from anything i'd seen earlier
-- Rust syntax is strict but helps prevent bugs
+One thing I found interesting was that integers in Rust need explicit types like `i32` or `u32`, which is something I had never really thought about in earlier languages. Overall, Rust syntax feels stricter than languages like Python, but I can already see how those restrictions help prevent bugs and make programs safer.

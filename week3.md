@@ -1,18 +1,7 @@
-Lab Notebook — Week 3 (Arnav Shah)
+# Lab Notebook — Week 3 (Arnav Shah)
 
-This week was more focused on understanding how Rust actually works under the hood, especially with memory and error handling. It was definitely more challenging than before, but I started to understand why Rust is designed the way it is.
+This week was definitely more challenging than the previous weeks because we started getting into how Rust actually works behind the scenes. I read Chapters 4 through 9 of *The Rust Programming Language*, which covered ownership, borrowing, structs, enums, and error handling. Ownership was honestly really confusing at first because it works very differently compared to other languages I’ve used before. I had to watch a couple YouTube videos alongside the reading to really understand what borrowing and references were doing. After working through more Rustlings exercises though, it started making a lot more sense. I completed Rustlings up through exercise 13, which focused more on error handling.
 
-What I Did
-Read The Rust Programming Language Chapters 4 through 9 (ownership → error handling)
-Worked through Rustlings exercises up to 13 which was error handling
-Read the paper “Arrakis: The Operating System is the Control Plane” and took notes about how security with OS is very difficult to maintian w/ LINUX.
+We also read the paper *Arrakis: The Operating System is the Control Plane*, and that paper was probably the hardest thing I worked on this week. At first I barely understood what was happening because of all the operating system and networking terminology, but after rereading parts of it and taking notes, I understood the main idea a lot better. The paper talks about how operating systems like Linux create a lot of overhead because applications always have to go through the kernel for networking and storage operations. Arrakis tries to solve this by letting applications directly access virtualized hardware while the kernel still handles protection and security in the background.
 
-What I Learned
-How ownership works and how Rust ends up managing all the memory
-How references and borrowing allow you to use data without taking ownership
-How enums and structs can actually help to organize data
-How operating systems can be actually be redesigned to reduce overhead//the whole point of Arrakis
-
-Notes
-Ownership was confusing and I needed to actually watch youtube videos to get the hang of it and understand it well
-The Arrakis paper was extremely confusing to follow initially, but through notes I understood the main takeaway was about reducing OS overhead and improving performance
+One thing I thought was interesting was how the paper explained that modern hardware has gotten so fast that the operating system itself is now becoming the bottleneck. Even with lots of Linux optimizations, the kernel still slows things down because applications constantly switch in and out of it. Arrakis separates the operating system into a control plane and a data plane so the kernel doesn’t need to be involved in every single operation. The results in the paper were also pretty impressive because applications like Redis and Memcached had much lower latency and higher throughput compared to Linux. One weakness though is that current hardware still doesn’t fully support everything Arrakis needs, so some parts have to be emulated in software.
