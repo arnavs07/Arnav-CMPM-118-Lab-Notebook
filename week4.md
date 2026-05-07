@@ -14,6 +14,6 @@ What I Learned
 - Project Structure: I learned how to organize code across different modules and use error handling in a way that actually makes sense for a real app.
 
 My Thoughts
-The Chapter 12 CLI project was easily the best part of the week. Building a tool that searches through files like a basic grep felt like a real accomplishment compared to just solving practice puzzles. It forced me to actually use everything I’ve learned (ownership, borrowing, and error handling) all in one place.
+The Chapter 12 CLI project was pretty difficult for me, especially in terms of time because of midterms as well. Building a tool that searches through files like a basic grep felt pretty interesting compared to just solving practice puzzles. It forced me to actually use everything I’ve learned (ownership, borrowing, and error handling) all in one place.
 
 I’ve realized that Rust makes way more sense when you’re actually building something. The CLI project made the hard concepts click because I could finally see why they matter. It’s one thing to read about generics, but it’s another thing to use them to make a search tool actually work. Overall, it was a tough week, but it feels like it’s all finally coming together.
