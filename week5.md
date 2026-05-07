@@ -34,4 +34,12 @@ From what I got out of it, CHERI is all about making C and C++ safer. Normally, 
 
 It’s pretty smart how CHERI works with existing stuff like ARM or RISC-V instead of trying to replace them. It uses compartmentalization to keep different parts of a system isolated, so if one part gets hacked, the rest stays safe. It reminded me a lot of Rust, honestly. Both are trying to solve memory safety, but Rust does it through the compiler while CHERI does it through the hardware.
 
+Major Contributions (What is novel compared to previous work)
+
+One of the biggest contributions of CHERI is that it improves memory safety by adding hardware supported capabilities to normal pointers. Instead of pointers only storing memory addresses, they also store permissions, bounds, and validity information. This helps prevent memory bugs like buffer overflows and invalid memory accesses.
+
+One major strength of CHERI is that it provides strong hardware-level security protections against common memory vulnerabilities. One weakness is that the system becomes very complicated and requires hardware changes.
+
+How much performance overhead would capability systems add in real-world applications?
+
 Section 8 was a bit much to understand, but how are async and threads different/when do you use them?
