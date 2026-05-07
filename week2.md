@@ -16,4 +16,4 @@ What I Learned
 My Thoughts
 The compiler was honestly pretty overwhelming at first. The error messages are huge, but once I actually started reading them, I realized they’re actually trying to help. They usually point exactly to the line where I messed up and even suggest how to fix it.
 
-Rust definitely feels way stricter than Python, but I can already tell that all these rules are there to prevent bugs before they even happen. It makes the programs feel a lot "safer" even if the compiler is a bit of a perfectionist. Overall, it was a solid week of finally getting my hands dirty with the code.
+Rust definitely feels way stricter than Python, but I can already tell that all these rules are there to prevent bugs before they even happen. It makes the programs feel a lot "safer" even if the compiler is a bit stingy. Overall, it was a solid week.
