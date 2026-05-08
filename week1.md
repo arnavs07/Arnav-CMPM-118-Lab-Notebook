@@ -4,15 +4,16 @@ This week was basically just an intro to how the class is going to work and gett
 What I Did
 - Set up WSL (Windows Subsystem for Linux) on my laptop.
 - Got Rust installed and configured everything to work together.
-- Connected VS Code to WSL so I can write code in a normal editor but run it inside Linux.
-- Practiced using the terminal for things like moving through folders and running commands.
+- Initiated Rustlings
+- Connected VS Code to WSL so I can write code in a normal editor but run it through Linux
+- Practiced using the terminal for things like running commands.
 
 What I Learned
-- Linux Basics: I’d never really used Linux commands before, so I had to learn how to navigate and manage files through the terminal. It was a little confusing at first, but I’m getting more comfortable with it.
-- Compilation: I started learning how Rust actually builds and runs programs, which is a lot different than how Python or Java handles things.
-- Environment Setup: I realized how important it is to have a solid dev environment before you even start writing your first line of real code.
+- I’d never really used Linux commands before, so I had to learn how to navigate and manage files through the terminal. Also I began taking CSE13s this wuarter as well, so I learned a thing or two, but not much at this point in time. It was a little confusing at first, but I’m getting more comfortable with it.
+- I started learning how Rust actually builds and runs programs, which is a lot different than how Python or Java works with things.
+- I realized how important it is to have a solid dev environment before you even start writing your first line of real code.
 
 My Thoughts
-Honestly, the terminal was pretty intimidating at the start of the week. I’m used to just clicking on folders and hitting a "run" button, so having to type everything out felt like a lot. But after spending some time in there, it’s actually starting to feel pretty fast.
+Honestly, the terminal was pretty intimidating at the start of the week. I’m used to just clicking on folders and hitting a "run" button, so having to type everything out felt like a lot. But after spending some time in there, i'm actually beginning to feel more comfortable with it. I think some experience with Virtual Box was also really helpful in this case.
 
 Most of this week was just about getting the boring setup stuff out of the way so we don’t run into issues later.
